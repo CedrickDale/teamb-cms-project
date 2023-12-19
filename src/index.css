@@ -1,11 +1,28 @@
 * {
+  background-color: #ebffe5;
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 .nav-container {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2rem;
+  background-color: #bce8b1;
+}
+
+.nav-container-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container-right {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  background-color: #bce8b1;
+  padding: 15px 15px 15px;
 }
 
 .main-container {

@@ -1,13 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 const Nav = () => {
   return (
-    <div><nav className = 'nav-container'>
-    <ul>home</ul>
-    <ul>log in</ul>
-    <ul>log out</ul>
-  </nav></div>
-  )
-}
+    <div>
+      <nav className="nav-container">
+        <div className="nav-container-left">
+          <ul> tsukidentsukidentsukiden </ul>
+          <ul>My Course</ul>
+          <ul>Activity</ul>
+        </div>
 
-export default Nav
+        <div className="nav-container-right">
+          <ul>notif</ul>
+          <ul>chat</ul>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default Nav;
