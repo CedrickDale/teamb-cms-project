@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
