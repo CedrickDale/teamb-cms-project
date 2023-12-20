@@ -18,17 +18,17 @@ function MyForm() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Enter your name:
+        Email Address
         <input
           type="text"
-          name="username"
-          value={inputs.username || ''}
+          name="email"
+          value={inputs.email || ''}
           onChange={handleChange}
         />
       </label>{' '}
       <br />
       <label>
-        Enter your password:
+        Password
         <input
           type="password"
           name="password"

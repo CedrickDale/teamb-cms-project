@@ -8,7 +8,7 @@ const Main = () => {
         <div>
         
             <LogIn /> <br />
-            <Dashboard/>
+            <Dashboard />
           
         </div>
       </main>

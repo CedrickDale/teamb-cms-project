@@ -13,20 +13,37 @@
   font-size: 24px;
   font-family: Inter;
   font-weight: 300;
+  padding: 0;
 }
 
 .nav-container-left {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  background-color: #bce8b1;
 }
 
 .nav-container-right {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  background-color: #bce8b1;
 }
 ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   background-color: #bce8b1;
-  padding: 15px 15px 15px;
+  padding: 15px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: #bce8b1;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
 }
 
 .main-container {
@@ -39,33 +56,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-/*SIDE NAV*/
-/* SideNav.css */
-
-.sidenav {
-  width: 200px;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #333;
-  padding-top: 20px;
-}
-
-.sidenav ul {
-  list-style: none;
-  padding: 0;
-}
-
-.sidenav li {
-  padding: 10px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.sidenav li:hover {
-  background-color: #555;
 }
 
 /*login form*/
@@ -81,4 +71,15 @@ input {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*dashboard*/
+.card{
+  display: flex;
+  justify-content: space-around;
+  height:150px;
+  width:100px;
+}
+img{
+  padding: 10px;
 }

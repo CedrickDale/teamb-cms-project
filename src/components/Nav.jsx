@@ -1,22 +1,24 @@
 import React from 'react';
+import logo from '../assets/companyLogo.png';
 
 const Nav = () => {
   return (
     <div>
       <nav className="nav-container">
         <div className="nav-container-left">
-          <ul> tsukidentsukidentsukiden </ul>
+          <img className='logo' src={logo} alt="no" />
+          <ul>Dashboard</ul>
+          <ul>Profile</ul>
           <ul>My Course</ul>
-          <ul>Activities</ul>
+          <ul>Forum</ul>
         </div>
 
         <div className="nav-container-right">
-          <ul>notif</ul>
-          <ul>chat</ul>
-        </div>
+          <li> </li>
+          </div>
+       
       </nav>
     </div>
-    
   );
 };
 
