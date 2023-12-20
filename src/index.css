@@ -9,6 +9,10 @@
   display: flex;
   justify-content: space-between;
   background-color: #bce8b1;
+  color: black;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 300;
 }
 
 .nav-container-left {
@@ -35,4 +39,46 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/*SIDE NAV*/
+/* SideNav.css */
+
+.sidenav {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidenav li {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidenav li:hover {
+  background-color: #555;
+}
+
+/*login form*/
+input {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

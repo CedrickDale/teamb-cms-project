@@ -7,7 +7,7 @@ const Nav = () => {
         <div className="nav-container-left">
           <ul> tsukidentsukidentsukiden </ul>
           <ul>My Course</ul>
-          <ul>Activity</ul>
+          <ul>Activities</ul>
         </div>
 
         <div className="nav-container-right">
@@ -16,6 +16,7 @@ const Nav = () => {
         </div>
       </nav>
     </div>
+    
   );
 };
 
