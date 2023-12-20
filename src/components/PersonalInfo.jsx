@@ -4,10 +4,13 @@ const PersonalInfo = () => {
   return (
     <div>
       <div className='profile-option-container'>
+      
       <div className="profile-card">
-
-         <p className="profile-card-title">We use cookies.</p>
-         <p className="profile-card-option">This website uses cookies to ensure you get the best experience on our site.</p>
+      <p className="profile-card-title">Profile</p>
+      <p className="profile-card-option">Account Details</p>
+         
+         <p className="profile-card-option">Update Personal Information</p>
+        
       </div>
 
 
