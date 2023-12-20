@@ -1,12 +1,12 @@
 import React from 'react';
-import sample from '../assets/prog.png';
+import DashboardCard from './DashboardCard';
+
 const Dashboard = () => {
   return (
     <div>
-      <div className="card">
-        <img src="sample" src={sample} alt="sa" />
-      </div>
+     <DashboardCard/>
     </div>
   );
 };
+
 export default Dashboard;

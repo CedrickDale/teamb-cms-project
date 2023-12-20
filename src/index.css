@@ -74,12 +74,66 @@ input {
 }
 
 /*dashboard*/
-.card{
+.card-container{
   display: flex;
-  justify-content: space-around;
-  height:150px;
-  width:100px;
+  justify-content: center;
 }
-img{
-  padding: 10px;
+.card {
+  
+  width: 250px;
+  height: 254px;
+  border-radius: 20px;
+  background: #ebffe5;
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid #bce8b1;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card-details {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+  
+}
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #126912 ;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.text-body {
+  color: rgb(0, 0, 0);
+}
+
+/*Text*/
+.text-title {
+  font-size: 1em;
+  font-weight: 300 ;
+}
+
+/*Hover*/
+.card:hover {
+  border-color: #126912;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
 }
