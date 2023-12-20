@@ -8,9 +8,12 @@ function App() {
     <>
       <Nav />
       <Main />
-      <Footer />
-      <Profile/> <br /><br />
       <Dashboard />
+      <Profile /> <br />
+      <br />
+      <Footer />
+      <br />
+      <br />
     </>
   );
 }

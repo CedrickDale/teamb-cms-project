@@ -83,7 +83,7 @@ input {
   width: 250px;
   height: 254px;
   border-radius: 20px;
-  background: #ebffe5;
+  background-color: #ffffff;
   position: relative;
   padding: 1rem;
   margin: 1rem;
@@ -93,6 +93,7 @@ input {
 }
 
 .card-details {
+  background-color: #ffffff;
   color: black;
   height: 100%;
   gap: 0.5em;
@@ -118,13 +119,19 @@ input {
 }
 
 .text-body {
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
 
 /*Text*/
 .text-title {
+  background-color: #ffffff;
   font-size: 1em;
   font-weight: 300 ;
+}
+.card-h3{
+  
+  background-color: #ffffff; 
 }
 
 /*Hover*/

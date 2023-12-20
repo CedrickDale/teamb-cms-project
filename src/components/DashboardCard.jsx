@@ -7,7 +7,7 @@ const DashboardCard = () => {
         <div className="card">
           <div className="card-details">
             <p className="text-title">Course 1:</p>
-            <h3>Intro to Programming</h3>
+            <h3 className='card-h3'>Intro to Programming</h3>
             <p className="text-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               numquam minima consectetur officiis fugit facere excepturi alias
@@ -19,7 +19,7 @@ const DashboardCard = () => {
         <div className="card">
           <div className="card-details">
             <p className="text-title">Course 1:</p>
-            <h3>Intro to Programming</h3>
+            <h3 className='card-h3'>Intro to Programming</h3>
             <p className="text-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               numquam minima consectetur officiis fugit facere excepturi alias
@@ -31,7 +31,7 @@ const DashboardCard = () => {
         <div className="card">
           <div className="card-details">
             <p className="text-title">Course 1:</p>
-            <h3>Intro to Programming</h3>
+            <h3 className='card-h3'>Intro to Programming</h3>
             <p className="text-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               numquam minima consectetur officiis fugit facere excepturi alias
