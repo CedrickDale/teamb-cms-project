@@ -111,20 +111,25 @@ input {
   opacity: 0;
   transition: 0.3s ease-out;
 }
-
+.dash-card{
+  background-color: #BCE8B1;
+}
 .dash-text-body {
-  background-color: #ffffff;
+  background-color: #96c58a;
   color: rgb(0, 0, 0);
+}
+.dash-card-details{
+  background-color: #BCE8B1;
 }
 
 /*Text*/
 .dash-text-title {
-  background-color: #ffffff;
+  background-color: #BCE8B1;
   font-size: 1em;
   font-weight: 300;
 }
 .dash-h3-card {
-  background-color: #ffffff;
+  background-color: #BCE8B1;
 }
 
 /*Hover*/
@@ -210,9 +215,97 @@ input {
   gap: 0.75rem;
 }
 
+/*CourseList*/
+.first{
+  width: 100px;#BCE8B1
+  height: 100px;
+  background: red;
+  overflow: hidden;
+}
+.CourseList-container{
+  display: grid;
+  justify-content: center;
+}
+.CourseList-card-container {
+  display: flex;
+  justify-content: center;
+}
+.CourseList-card {
+  width: 1000px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #0e3b03;
+  position: relative;
+  padding: 2rem;
+  margin: 1rem;
+  border: 2px solid #0e3b03;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  display: center;
+}
+
+.CourseList-card-details {
+  background-color: #0e3b03;
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+
+.CourseList-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #126912;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.CourseList-text-body {
+  background-color: #0e3b03;
+  color: rgb(250, 250, 250);
+}
+
+/*Text*/
+.CourseList-text-title {
+  background-color: #0e3b03;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+}
+.CourseList-h3-card {
+  background-color: #0e3b03;
+  color: #fff;
+
+}
+
+/*Hover*/
+.CourseList-card:hover {
+  border-color: #1e6c0b;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.CourseList-card:hover .CourseList-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+button:hover {
+  background-color: #7cca69;
+}
+
 /*footer*/
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/*AddNewCourseCard*/
