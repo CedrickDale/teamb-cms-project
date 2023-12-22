@@ -1,5 +1,5 @@
 * {
-  background-color: #ebffe5;
+  background-color: #d2e9cb;
   box-sizing: border-box;
   margin: 0;
 }
@@ -301,11 +301,108 @@ button:hover {
   background-color: #7cca69;
 }
 
+/*AddNewCourseCard*/
+.first{
+  width: 100px;#BCE8B1
+  height: 100px;
+  background: red;
+  overflow: hidden;
+}
+.AddNewCourse-container{
+  display: grid;
+  justify-content: center;
+}
+.CourseList-card-container {
+  display: flex;
+  justify-content: center;
+}
+.AddNewCourse-card {
+  width: 1000px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #0e3b03;
+  position: relative;
+  padding: 2rem;
+  margin: 1rem;
+  border: 2px solid #0e3b03;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  display: center;
+}
+
+.AddNewCourse-card-details {
+  background-color: #0e3b03;
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+
+.AddNewCourse-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #126912;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+
+}.bbutton {
+  padding: 1rem;
+  width: 99%;
+  gap: .5em;
+  height: 100%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #0e360e;
+  color: #fff;
+  font-size: 2rem;
+  display: grid;
+  place-content: center;
+  
+}
+
+.AddNewCourse-text-body {
+  background-color: #0e3b03;
+  color: rgb(250, 250, 250);
+}
+
+/*Text*/
+.AddNewCourse-text-title {
+  background-color: #0e3b03;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+}
+.AddNewCourse-h3-card {
+  background-color: #0e3b03;
+  color: #fff;
+
+}
+
+/*Hover*/
+.AddNewCourse-card:hover {
+  border-color: #1e6c0b;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.AddNewCourse-card:hover .AddNewCourse-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+button:hover {
+  background-color: #7cca69;
+}
 /*footer*/
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/*AddNewCourseCard*/
